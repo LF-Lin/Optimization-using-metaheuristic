@@ -1,2 +1,2 @@
 # Optimization-using-metaheuristic
-Genetic Algorithm applied in CVPR
+Hybrid Genetic Algorithm for solving CVRP
