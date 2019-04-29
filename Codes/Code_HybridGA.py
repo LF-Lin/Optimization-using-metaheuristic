@@ -307,9 +307,9 @@ class ga(object):
             if time.time() - self.start_time > self.running_time:
 #                self.write_to_file("best-solution-marking.txt")
                 break
-#            if self.iter % self.num_iter:
-#                 self.im = self.visualise(self.best_solution)
-#                 self.im.save("image/"+str(data_file_loop)+str(self.best_solution.cost) + ".png")
+            if self.iter % self.num_iter:
+                 self.im = self.visualise(self.best_solution)
+                 self.im.save("image/"+str(data_file_loop)+str(self.best_solution.cost) + ".png")
         print("Best solution: " + str(best))
         print("Cost: " + str(best.cost))
         print(time.time() - self.start_time)
